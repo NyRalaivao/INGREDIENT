@@ -6,7 +6,7 @@ public class Dish {
     private String name;
     private DishTypeEnum dishType;
     private List<Ingredient> ingredients;
-    
+
     public Dish(int id, String name, DishTypeEnum dishType) {
         this.id = id;
         this.name = name;
